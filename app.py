@@ -104,10 +104,7 @@ st.markdown("""
         width: 100%; /* Stretch image to card width */
     }
 }
-           
-        
 
-            
 </style>
 """, unsafe_allow_html=True)
 
