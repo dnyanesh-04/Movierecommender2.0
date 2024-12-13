@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # Load the dataset
 try:
-    movies = pd.read_excel('imdbmovies.xlsx', engine='openpyxl')
+     movies = pd.read_csv('imdbmovies.csv')
 except FileNotFoundError:
     raise FileNotFoundError("The dataset 'imdbmovies.xlsx' was not found. Ensure the file is in the correct location.")
 except Exception as e:
